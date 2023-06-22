@@ -19,7 +19,7 @@ header{
     height: 100vh;
     width: 100%;
     background-color:#4F422B;
-    background-image: url("rkbpic.png");
+    background-image: url("Material/rkbpic.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -252,6 +252,8 @@ padding-top: 20px;
 
 .mc{
     /* border: 1px solid magenta; */
+    
+    flex-direction: row;
     height: 50%;
     width: 60%;
     border-radius: 5%;
@@ -264,16 +266,17 @@ padding-top: 20px;
 }
 
 .bc{
+    font-size: 30px;
+    text-align: center;
     width: 70%;
     height: 50%;
+    justify-content: center;
     /* color: rgb(6, 5, 5); */
-    /* border: 1px solid aqua; */
     background: #FFE7C7;
     border-radius: 5%;
     box-sizing: border-box;
     padding-top: 4%;
     transition: 0.2s;
-    
 }
 
 .bc:hover{
@@ -533,31 +536,31 @@ font-size: 25px;
 }
   
   .carousel__face:nth-child(1) {
-    background-image: url("1.jpg");
+    background-image: url("Material/1.jpg");
     transform: rotateY(  0deg) translateZ(430px); }
   .carousel__face:nth-child(2) { 
-    background-image: url("2.jpg");
+    background-image: url("Material/2.jpg");
       transform: rotateY( 40deg) translateZ(430px); }
   .carousel__face:nth-child(3) {
-    background-image: url("3.jpg");
+    background-image: url("Material/3.jpg");
     transform: rotateY( 80deg) translateZ(430px); }
   .carousel__face:nth-child(4) {
-    background-image: url("4.jpg");
+    background-image: url("Material/4.jpg");
     transform: rotateY(120deg) translateZ(430px); }
   .carousel__face:nth-child(5) { 
-    background-image: url("5.jpg");
+    background-image: url("Material/5.jpg");
    transform: rotateY(160deg) translateZ(430px); }
   .carousel__face:nth-child(6) { 
-    background-image: url("6.jpg");
+    background-image: url("Material/6.jpg");
    transform: rotateY(200deg) translateZ(430px); }
   .carousel__face:nth-child(7) { 
-    background-image: url("7.jpeg");
+    background-image: url("Material/7.jpeg");
    transform: rotateY(240deg) translateZ(430px); }
   .carousel__face:nth-child(8) {
-    background-image: url("8.jpeg");
+    background-image: url("Material/8.jpeg");
     transform: rotateY(280deg) translateZ(430px); }
   .carousel__face:nth-child(9) {
-    background-image: url("9.jpeg");
+    background-image: url("Material/9.jpeg");
     transform: rotateY(320deg) translateZ(430px); }
   
   
@@ -604,7 +607,7 @@ font-size: 25px;
 .new_footer_top .footer_bg {
      position: relative;
     bottom: 0;
-    background: url("iitrbg.png") no-repeat scroll center 0;
+    background: url("Material/iitrbg.png") no-repeat scroll center 0;
     width: 100%;
     height: 266px;
     /* border: 2px solid salmon; */
